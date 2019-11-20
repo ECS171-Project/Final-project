@@ -5,8 +5,9 @@
 ### Project objective: 
 Perform different methods on spam messages detecting, comparing methods like KNN, Naive Bayes classifier, SVM, Neural Networks classifier and find the one gives the best precision rate.
 
-### Data Source:    
-The dataset for this project comes from Kaggle. [link to Kaggle!](https://www.kaggle.com/uciml/sms-spam-collection-dataset)
+### Data source:    
+The dataset for this project comes from Kaggle. [link to Kaggle!](https://www.kaggle.com/uciml/sms-spam-collection-dataset) 
+
 The SMS Spam Collection is a set of SMS tagged messages that have been collected for SMS Spam research. It contains one set of SMS messages in English of 5,574 messages, tagged acording being ham (legitimate) or spam.  
 
 ### Project code:    
