@@ -16,10 +16,11 @@ def RF_tune_parameter(X, y, metric, n_est, cv):
     print('Tuning...\nn varies from %d to %d'%(n_est[0], n_est[-1]))
     score = []
     for n in n_est:
-        print('n =', n)
+        print('n =', n, end='\t')
         model = RandomForestClassifier(n_estimators = n, criterion='entropy')
         s = model_selection.cross_validate(model, X, y, scoring=metric, cv=cv)
         score.append(np.mean(s['test_score']))
+        print('F1 score:', np.mean(s['test_score']))
     return np.array(score)
 
 # Find out the n_estimators with the highest F1 score
@@ -48,7 +49,7 @@ with open('test_data2.pkl', 'rb') as f:
 # ========================= Data set 1 ==============================================================================
 print('CountVectorizer: Data set 1')
 # ========================= Random Forest classier starts ===========================================================
-n_est = np.arange(60, 100, 5)
+n_est = np.arange(86, 94, 1)
 S1 = RF_tune_parameter(X = X_tr, y = y_tr, metric = 'f1',n_est = n_est, cv = 5)
 best_n_est1 = find_best_parameter(n_est, S1, 5)
 
@@ -84,7 +85,7 @@ print('\n')
 # ========================= Data set 2 ==============================================================================
 print('TfidVectorizer: Data set 2')
 # ========================= Random Forest classier starts ===========================================================
-n_est = np.arange(40, 80, 3)
+n_est = np.arange(59, 68, 1)
 S2 = RF_tune_parameter(X = X_tr2, y = y_tr2, metric = 'f1',n_est = n_est, cv = 5)
 best_n_est2 = find_best_parameter(n_est, S2, 6)
 classifier2 = RandomForestClassifier(n_estimators = best_n_est2, criterion = 'entropy')
