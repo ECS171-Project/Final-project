@@ -10,7 +10,10 @@ The dataset for this project comes from Kaggle. [link to Kaggle!](https://www.ka
 
 The SMS Spam Collection is a set of SMS tagged messages that have been collected for SMS Spam research. It contains one set of SMS messages in English of 5,574 messages, tagged acording being ham (legitimate) or spam.  
 
-### Project code:    
+### Data preprocessing
+[Data preprocessing](https://github.com/ECS171-Project/Final-project/blob/master/Data%20Preprocessing.ipynb)
+
+### Project code:   
 [KNN](https://github.com/ECS171-Project/Final-project/blob/master/SVC%20and%20KNN.ipynb) 
 
 [Support Vector Machine](https://github.com/ECS171-Project/Final-project/blob/master/SVC%20and%20KNN.ipynb) 
@@ -19,7 +22,8 @@ The SMS Spam Collection is a set of SMS tagged messages that have been collected
 
 [Naive Bayes](https://github.com/ECS171-Project/Final-project/blob/master/NaiiveBayes.ipynb)  
 
-[Recurrent Neural Network](https://github.com/ECS171-Project/Final-project/blob/master/Spam%20Classifier%20with%20ANN.ipynb)  
+[Gated Recurrent Units](https://github.com/ECS171-Project/Final-project/blob/master/Gated%20Recurrent%20Neural%20Network%20(Embedding%20layer%20trained%20from%20scratch%20and%20pretrained%20layer).ipynb): Note that you must download the pre-trained word vector "glove6B.zip" from here:https://nlp.stanford.edu/projects/glove/ in order to run the code about gated recurrent unit with pretrained word embedding layer. You need to unzip the folder once you have downloaded it. Then put "glove.6B.300d.txt" on your working directory.
+
 
 
 
