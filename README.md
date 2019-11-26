@@ -18,7 +18,7 @@ The SMS Spam Collection is a set of SMS tagged messages that have been collected
 
 [Support Vector Machine](https://github.com/ECS171-Project/Final-project/blob/master/SVC%20and%20KNN.ipynb) 
 
-[Ramdon Forest](https://github.com/ECS171-Project/Final-project/blob/master/random_forest.py)  
+[Ramdon Forest](https://github.com/ECS171-Project/Final-project/blob/master/random_forest.ipynb)
 
 [Naive Bayes](https://github.com/ECS171-Project/Final-project/blob/master/NaiiveBayes.ipynb)  
 
