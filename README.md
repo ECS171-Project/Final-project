@@ -24,6 +24,6 @@ The SMS Spam Collection is a set of SMS tagged messages that have been collected
 
 [Gated Recurrent Units](https://github.com/ECS171-Project/Final-project/blob/master/Gated%20Recurrent%20Neural%20Network%20(Embedding%20layer%20trained%20from%20scratch%20and%20pretrained%20layer).ipynb): Note that you must download the pre-trained word vector "glove6B.zip" from here:https://nlp.stanford.edu/projects/glove/ in order to run the code about gated recurrent unit with pretrained word embedding layer. You need to unzip the folder once you have downloaded it. Then put "glove.6B.300d.txt" on your working directory.
 
-
+[Model comparions](https://github.com/ECS171-Project/Final-project)
 
 
