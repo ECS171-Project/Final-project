@@ -28,4 +28,6 @@ The SMS Spam Collection is a set of SMS tagged messages that have been collected
 
 [Model comparisons](https://github.com/ECS171-Project/Final-project/blob/master/Models%20comparisons%20across%20different%20methods.ipynb)
 
+[Report](https://github.com/ECS171-Project/Final-project/blob/master/Machine_Learning_Approaches_to_Spam_Filtering_Problems.pdf)
+
 
